@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3CBBF8EF18891A2F00785BB2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CBBF8EE18891A2F00785BB2 /* Foundation.framework */; };
+		3CBBF8F118891A2F00785BB2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CBBF8F018891A2F00785BB2 /* CoreGraphics.framework */; };
+		3CBBF8F318891A2F00785BB2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CBBF8F218891A2F00785BB2 /* UIKit.framework */; };
+		3CBBF8F918891A2F00785BB2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3CBBF8F718891A2F00785BB2 /* InfoPlist.strings */; };
+		3CBBF8FB18891A2F00785BB2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CBBF8FA18891A2F00785BB2 /* main.m */; };
+		3CBBF8FF18891A2F00785BB2 /* BTCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CBBF8FE18891A2F00785BB2 /* BTCAppDelegate.m */; };
+		3CBBF90218891A2F00785BB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CBBF90018891A2F00785BB2 /* Main.storyboard */; };
+		3CBBF90518891A2F00785BB2 /* BTCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CBBF90418891A2F00785BB2 /* BTCViewController.m */; };
+		3CBBF90718891A2F00785BB2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CBBF90618891A2F00785BB2 /* Images.xcassets */; };
+		3CBBF90E18891A2F00785BB2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CBBF90D18891A2F00785BB2 /* XCTest.framework */; };
+		3CBBF90F18891A2F00785BB2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CBBF8EE18891A2F00785BB2 /* Foundation.framework */; };
+		3CBBF91018891A2F00785BB2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CBBF8F218891A2F00785BB2 /* UIKit.framework */; };
+		3CBBF91818891A2F00785BB2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3CBBF91618891A2F00785BB2 /* InfoPlist.strings */; };
+		3CBBF91A18891A2F00785BB2 /* BTCoinTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CBBF91918891A2F00785BB2 /* BTCoinTests.m */; };
+		3CBBF92618891B3D00785BB2 /* BTCMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CBBF92418891B3D00785BB2 /* BTCMainViewController.m */; };
+		3CBBF92718891B3D00785BB2 /* BTCMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CBBF92518891B3D00785BB2 /* BTCMainViewController.xib */; };
+		3CBBF92A18891E5E00785BB2 /* BTCtestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CBBF92918891E5D00785BB2 /* BTCtestViewController.m */; };
+		3CBBF92E18891FD300785BB2 /* BTCPriceDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CBBF92C18891FD300785BB2 /* BTCPriceDetailViewController.m */; };
+		3CBBF92F18891FD300785BB2 /* BTCPriceDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CBBF92D18891FD300785BB2 /* BTCPriceDetailViewController.xib */; };
+		3CBBF932188924AC00785BB2 /* BTCUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CBBF931188924AC00785BB2 /* BTCUtil.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3CBBF91118891A2F00785BB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CBBF8E318891A2F00785BB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CBBF8EA18891A2F00785BB2;
+			remoteInfo = BTCoin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3CBBF8EB18891A2F00785BB2 /* BTCoin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BTCoin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CBBF8EE18891A2F00785BB2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3CBBF8F018891A2F00785BB2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3CBBF8F218891A2F00785BB2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3CBBF8F618891A2F00785BB2 /* BTCoin-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BTCoin-Info.plist"; sourceTree = "<group>"; };
+		3CBBF8F818891A2F00785BB2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3CBBF8FA18891A2F00785BB2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3CBBF8FC18891A2F00785BB2 /* BTCoin-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BTCoin-Prefix.pch"; sourceTree = "<group>"; };
+		3CBBF8FD18891A2F00785BB2 /* BTCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTCAppDelegate.h; sourceTree = "<group>"; };
+		3CBBF8FE18891A2F00785BB2 /* BTCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTCAppDelegate.m; sourceTree = "<group>"; };
+		3CBBF90118891A2F00785BB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3CBBF90318891A2F00785BB2 /* BTCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTCViewController.h; sourceTree = "<group>"; };
+		3CBBF90418891A2F00785BB2 /* BTCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTCViewController.m; sourceTree = "<group>"; };
+		3CBBF90618891A2F00785BB2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3CBBF90C18891A2F00785BB2 /* BTCoinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BTCoinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CBBF90D18891A2F00785BB2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3CBBF91518891A2F00785BB2 /* BTCoinTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BTCoinTests-Info.plist"; sourceTree = "<group>"; };
+		3CBBF91718891A2F00785BB2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3CBBF91918891A2F00785BB2 /* BTCoinTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTCoinTests.m; sourceTree = "<group>"; };
+		3CBBF92318891B3D00785BB2 /* BTCMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTCMainViewController.h; sourceTree = "<group>"; };
+		3CBBF92418891B3D00785BB2 /* BTCMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTCMainViewController.m; sourceTree = "<group>"; };
+		3CBBF92518891B3D00785BB2 /* BTCMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BTCMainViewController.xib; sourceTree = "<group>"; };
+		3CBBF92818891E5D00785BB2 /* BTCtestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTCtestViewController.h; sourceTree = "<group>"; };
+		3CBBF92918891E5D00785BB2 /* BTCtestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTCtestViewController.m; sourceTree = "<group>"; };
+		3CBBF92B18891FD300785BB2 /* BTCPriceDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BTCPriceDetailViewController.h; path = ../BTCPriceDetailViewController.h; sourceTree = "<group>"; };
+		3CBBF92C18891FD300785BB2 /* BTCPriceDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BTCPriceDetailViewController.m; path = ../BTCPriceDetailViewController.m; sourceTree = "<group>"; };
+		3CBBF92D18891FD300785BB2 /* BTCPriceDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BTCPriceDetailViewController.xib; path = ../BTCPriceDetailViewController.xib; sourceTree = "<group>"; };
+		3CBBF930188924AC00785BB2 /* BTCUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BTCUtil.h; path = ../BTCUtil.h; sourceTree = "<group>"; };
+		3CBBF931188924AC00785BB2 /* BTCUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BTCUtil.m; path = ../BTCUtil.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3CBBF8E818891A2F00785BB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CBBF8F118891A2F00785BB2 /* CoreGraphics.framework in Frameworks */,
+				3CBBF8F318891A2F00785BB2 /* UIKit.framework in Frameworks */,
+				3CBBF8EF18891A2F00785BB2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CBBF90918891A2F00785BB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CBBF90E18891A2F00785BB2 /* XCTest.framework in Frameworks */,
+				3CBBF91018891A2F00785BB2 /* UIKit.framework in Frameworks */,
+				3CBBF90F18891A2F00785BB2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3CBBF8E218891A2F00785BB2 = {
+			isa = PBXGroup;
+			children = (
+				3CBBF8F418891A2F00785BB2 /* BTCoin */,
+				3CBBF91318891A2F00785BB2 /* BTCoinTests */,
+				3CBBF8ED18891A2F00785BB2 /* Frameworks */,
+				3CBBF8EC18891A2F00785BB2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3CBBF8EC18891A2F00785BB2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3CBBF8EB18891A2F00785BB2 /* BTCoin.app */,
+				3CBBF90C18891A2F00785BB2 /* BTCoinTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3CBBF8ED18891A2F00785BB2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3CBBF8EE18891A2F00785BB2 /* Foundation.framework */,
+				3CBBF8F018891A2F00785BB2 /* CoreGraphics.framework */,
+				3CBBF8F218891A2F00785BB2 /* UIKit.framework */,
+				3CBBF90D18891A2F00785BB2 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3CBBF8F418891A2F00785BB2 /* BTCoin */ = {
+			isa = PBXGroup;
+			children = (
+				3CBBF92B18891FD300785BB2 /* BTCPriceDetailViewController.h */,
+				3CBBF92C18891FD300785BB2 /* BTCPriceDetailViewController.m */,
+				3CBBF92D18891FD300785BB2 /* BTCPriceDetailViewController.xib */,
+				3CBBF8FD18891A2F00785BB2 /* BTCAppDelegate.h */,
+				3CBBF8FE18891A2F00785BB2 /* BTCAppDelegate.m */,
+				3CBBF930188924AC00785BB2 /* BTCUtil.h */,
+				3CBBF931188924AC00785BB2 /* BTCUtil.m */,
+				3CBBF90018891A2F00785BB2 /* Main.storyboard */,
+				3CBBF90318891A2F00785BB2 /* BTCViewController.h */,
+				3CBBF90418891A2F00785BB2 /* BTCViewController.m */,
+				3CBBF90618891A2F00785BB2 /* Images.xcassets */,
+				3CBBF8F518891A2F00785BB2 /* Supporting Files */,
+				3CBBF92318891B3D00785BB2 /* BTCMainViewController.h */,
+				3CBBF92418891B3D00785BB2 /* BTCMainViewController.m */,
+				3CBBF92518891B3D00785BB2 /* BTCMainViewController.xib */,
+				3CBBF92818891E5D00785BB2 /* BTCtestViewController.h */,
+				3CBBF92918891E5D00785BB2 /* BTCtestViewController.m */,
+			);
+			path = BTCoin;
+			sourceTree = "<group>";
+		};
+		3CBBF8F518891A2F00785BB2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3CBBF8F618891A2F00785BB2 /* BTCoin-Info.plist */,
+				3CBBF8F718891A2F00785BB2 /* InfoPlist.strings */,
+				3CBBF8FA18891A2F00785BB2 /* main.m */,
+				3CBBF8FC18891A2F00785BB2 /* BTCoin-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3CBBF91318891A2F00785BB2 /* BTCoinTests */ = {
+			isa = PBXGroup;
+			children = (
+				3CBBF91918891A2F00785BB2 /* BTCoinTests.m */,
+				3CBBF91418891A2F00785BB2 /* Supporting Files */,
+			);
+			path = BTCoinTests;
+			sourceTree = "<group>";
+		};
+		3CBBF91418891A2F00785BB2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3CBBF91518891A2F00785BB2 /* BTCoinTests-Info.plist */,
+				3CBBF91618891A2F00785BB2 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3CBBF8EA18891A2F00785BB2 /* BTCoin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CBBF91D18891A3000785BB2 /* Build configuration list for PBXNativeTarget "BTCoin" */;
+			buildPhases = (
+				3CBBF8E718891A2F00785BB2 /* Sources */,
+				3CBBF8E818891A2F00785BB2 /* Frameworks */,
+				3CBBF8E918891A2F00785BB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BTCoin;
+			productName = BTCoin;
+			productReference = 3CBBF8EB18891A2F00785BB2 /* BTCoin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3CBBF90B18891A2F00785BB2 /* BTCoinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CBBF92018891A3000785BB2 /* Build configuration list for PBXNativeTarget "BTCoinTests" */;
+			buildPhases = (
+				3CBBF90818891A2F00785BB2 /* Sources */,
+				3CBBF90918891A2F00785BB2 /* Frameworks */,
+				3CBBF90A18891A2F00785BB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CBBF91218891A2F00785BB2 /* PBXTargetDependency */,
+			);
+			name = BTCoinTests;
+			productName = BTCoinTests;
+			productReference = 3CBBF90C18891A2F00785BB2 /* BTCoinTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3CBBF8E318891A2F00785BB2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BTC;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Kevin;
+				TargetAttributes = {
+					3CBBF90B18891A2F00785BB2 = {
+						TestTargetID = 3CBBF8EA18891A2F00785BB2;
+					};
+				};
+			};
+			buildConfigurationList = 3CBBF8E618891A2F00785BB2 /* Build configuration list for PBXProject "BTCoin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3CBBF8E218891A2F00785BB2;
+			productRefGroup = 3CBBF8EC18891A2F00785BB2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3CBBF8EA18891A2F00785BB2 /* BTCoin */,
+				3CBBF90B18891A2F00785BB2 /* BTCoinTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3CBBF8E918891A2F00785BB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CBBF90718891A2F00785BB2 /* Images.xcassets in Resources */,
+				3CBBF8F918891A2F00785BB2 /* InfoPlist.strings in Resources */,
+				3CBBF92F18891FD300785BB2 /* BTCPriceDetailViewController.xib in Resources */,
+				3CBBF90218891A2F00785BB2 /* Main.storyboard in Resources */,
+				3CBBF92718891B3D00785BB2 /* BTCMainViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CBBF90A18891A2F00785BB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CBBF91818891A2F00785BB2 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3CBBF8E718891A2F00785BB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CBBF8FF18891A2F00785BB2 /* BTCAppDelegate.m in Sources */,
+				3CBBF90518891A2F00785BB2 /* BTCViewController.m in Sources */,
+				3CBBF92A18891E5E00785BB2 /* BTCtestViewController.m in Sources */,
+				3CBBF92E18891FD300785BB2 /* BTCPriceDetailViewController.m in Sources */,
+				3CBBF8FB18891A2F00785BB2 /* main.m in Sources */,
+				3CBBF932188924AC00785BB2 /* BTCUtil.m in Sources */,
+				3CBBF92618891B3D00785BB2 /* BTCMainViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CBBF90818891A2F00785BB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CBBF91A18891A2F00785BB2 /* BTCoinTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3CBBF91218891A2F00785BB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CBBF8EA18891A2F00785BB2 /* BTCoin */;
+			targetProxy = 3CBBF91118891A2F00785BB2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3CBBF8F718891A2F00785BB2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CBBF8F818891A2F00785BB2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3CBBF90018891A2F00785BB2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CBBF90118891A2F00785BB2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3CBBF91618891A2F00785BB2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CBBF91718891A2F00785BB2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3CBBF91B18891A3000785BB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3CBBF91C18891A3000785BB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3CBBF91E18891A3000785BB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BTCoin/BTCoin-Prefix.pch";
+				INFOPLIST_FILE = "BTCoin/BTCoin-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3CBBF91F18891A3000785BB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BTCoin/BTCoin-Prefix.pch";
+				INFOPLIST_FILE = "BTCoin/BTCoin-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3CBBF92118891A3000785BB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BTCoin.app/BTCoin";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BTCoin/BTCoin-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BTCoinTests/BTCoinTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		3CBBF92218891A3000785BB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BTCoin.app/BTCoin";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BTCoin/BTCoin-Prefix.pch";
+				INFOPLIST_FILE = "BTCoinTests/BTCoinTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3CBBF8E618891A2F00785BB2 /* Build configuration list for PBXProject "BTCoin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CBBF91B18891A3000785BB2 /* Debug */,
+				3CBBF91C18891A3000785BB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CBBF91D18891A3000785BB2 /* Build configuration list for PBXNativeTarget "BTCoin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CBBF91E18891A3000785BB2 /* Debug */,
+				3CBBF91F18891A3000785BB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3CBBF92018891A3000785BB2 /* Build configuration list for PBXNativeTarget "BTCoinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CBBF92118891A3000785BB2 /* Debug */,
+				3CBBF92218891A3000785BB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3CBBF8E318891A2F00785BB2 /* Project object */;
+}
